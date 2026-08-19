@@ -1,6 +1,563 @@
 {
   "repos": [
     {
+      "installSize": 210343,
+      "openIssues": 7,
+      "package": {
+        "author": "Cyprien63 &amp; Luizo",
+        "backends": [
+          "windows",
+          "linux",
+          "darwin",
+          "ios",
+          "android",
+          "docker"
+        ],
+        "description": {
+          "default": "Sync SiYuan notes with a GitHub repository. Incremental push/pull, 3-way merge, commit history, restore, Groq AI commit messages.",
+          "zh_CN": "将思源笔记与 GitHub 仓库同步。增量推送/拉取、三方合并、提交历史、恢复、Groq AI 提交消息。"
+        },
+        "displayName": {
+          "default": "GitHub Sync",
+          "zh_CN": "GitHub 同步"
+        },
+        "frontends": [
+          "desktop",
+          "mobile",
+          "browser-desktop",
+          "browser-mobile"
+        ],
+        "funding": {
+          "custom": [
+            "https://paypal.me/CyprienPisicchio",
+            "https://paypal.me/luizooo"
+          ]
+        },
+        "keywords": [
+          "sync",
+          "github",
+          "backup",
+          "git",
+          "version-control"
+        ],
+        "minAppVersion": "3.6.4",
+        "name": "siyuan-github-sync",
+        "readme": {
+          "default": "README.md"
+        },
+        "url": "https://github.com/cyprien63/siyuan-plugin",
+        "version": "4.0.4"
+      },
+      "packageZipAssetId": 520691971,
+      "packageZipSha256": "1b7bbe7a4b725ab1405ce756d2a99013de97e19fd50867cb9004be4a32d7a2e1",
+      "size": 98096,
+      "stars": 3,
+      "updated": "2026-08-19T10:16:01Z",
+      "url": "cyprien63/siyuan-plugin@1b7bbe7"
+    },
+    {
+      "installSize": 1048833,
+      "openIssues": 0,
+      "package": {
+        "author": "li.mian",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A personal ledger plugin for SiYuan.",
+          "zh_CN": "一个基于思源笔记的账本插件"
+        },
+        "displayName": {
+          "default": "pledger",
+          "zh_CN": "账本"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [
+            "https://afdian.com/a/limian"
+          ]
+        },
+        "keywords": [
+          "ledger",
+          "账本"
+        ],
+        "minAppVersion": "3.2.1",
+        "name": "siyuan-pledger",
+        "readme": {
+          "default": "README.md"
+        },
+        "url": "https://github.com/double3-org/siyuan-pledger",
+        "version": "0.2.4"
+      },
+      "packageZipAssetId": 520671858,
+      "packageZipSha256": "83a8038bcc1292eef89330f71516c6251f36d68d344aee2a3332c7d679c9d72a",
+      "size": 475506,
+      "stars": 7,
+      "updated": "2026-08-19T08:33:01Z",
+      "url": "double3-org/siyuan-pledger@83a8038"
+    },
+    {
+      "installSize": 263645,
+      "openIssues": 0,
+      "package": {
+        "author": "Acetab",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "Automatically fetch and cache favicons for SiYuan web links, with multiple sources, local monogram fallbacks, and smart compatibility with Link Icon.",
+          "zh-CN": "自动为思源网页链接获取并缓存网站图标，支持多来源、本地字母兜底，并可与「链接图标」插件智能配合。"
+        },
+        "displayName": {
+          "default": "Auto Favicon",
+          "zh-CN": "自动网站图标"
+        },
+        "frontends": [
+          "desktop",
+          "mobile"
+        ],
+        "keywords": [
+          "网站图标",
+          "自动图标",
+          "网页链接",
+          "外链",
+          "favicon",
+          "链接",
+          "link icon",
+          "website icon",
+          "Vibe Coding"
+        ],
+        "minAppVersion": "3.7.0",
+        "name": "auto-favicon",
+        "readme": {
+          "default": "README.md",
+          "zh-CN": "README.zh-CN.md"
+        },
+        "url": "https://github.com/Acetab/auto-favicon",
+        "version": "0.5.8"
+      },
+      "packageZipAssetId": 520590085,
+      "packageZipSha256": "e923c97549ef11e457d479b3c091c78e7dfcb1e1521ff0ffcfd71beec658985d",
+      "size": 187404,
+      "stars": 0,
+      "updated": "2026-08-19T08:30:42Z",
+      "url": "Acetab/auto-favicon@e923c97"
+    },
+    {
+      "installSize": 1597889,
+      "openIssues": 1,
+      "package": {
+        "author": "Szerelem0617",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "【🔓Permanently open source and free】 One-click index insertion, supports batch data management in attribute view.",
+          "zh_CN": "【🔓永久开源免费】 一键插入目录；创建数据库；批量管理数据。"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Index Plugin",
+          "zh_CN": "目录插件"
+        },
+        "frontends": [
+          "all"
+        ],
+        "keywords": [
+          "index",
+          "目录"
+        ],
+        "minAppVersion": "3.7.3",
+        "name": "siyuan-plugins-index",
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md"
+        },
+        "url": "https://github.com/Szerelem0617/siyuan-plugins-index",
+        "version": "1.10.7"
+      },
+      "packageZipAssetId": 520548416,
+      "packageZipSha256": "791854168f84b17e6883bd6ae37a9a0a1cebb3656f38e1593c712902f522444e",
+      "size": 666523,
+      "stars": 43,
+      "updated": "2026-08-19T07:43:31Z",
+      "url": "Szerelem0617/siyuan-plugins-index@7918541"
+    },
+    {
+      "installSize": 2018308,
+      "openIssues": 0,
+      "package": {
+        "author": "LunaNorth",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A lightweight note-taking plugin for SiYuan, inspired by Flomo",
+          "zh_CN": "记录每一个轻闪而过的念头"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Lumina",
+          "zh_CN": "轻语"
+        },
+        "frontends": [
+          "all"
+        ],
+        "funding": {
+          "custom": [
+            "https://testingcf.jsdelivr.net/gh/LunaNorth/north-img/images/20260519195219305.png"
+          ]
+        },
+        "keywords": [
+          "碎碎念",
+          "记录",
+          "回顾"
+        ],
+        "minAppVersion": "3.3.3",
+        "name": "siyuan-lumina",
+        "readme": {
+          "default": "README.md"
+        },
+        "url": "https://github.com/LunaNorth/siyuan-lumina",
+        "version": "2.1.9"
+      },
+      "packageZipAssetId": 520521356,
+      "packageZipSha256": "9806ec62bf4b77dc8bd5fbbce3a14ff1f21449c4aa56b8f2bd595498bd4c5eab",
+      "size": 561948,
+      "stars": 16,
+      "updated": "2026-08-19T07:11:53Z",
+      "url": "LunaNorth/siyuan-lumina@9806ec6"
+    },
+    {
+      "installSize": 257437,
+      "openIssues": 1,
+      "package": {
+        "author": "Jeffrey Chen",
+        "backends": [
+          "windows",
+          "linux",
+          "darwin"
+        ],
+        "description": {
+          "default": "Open flomo in a tab or dock.",
+          "zh-CN": "在页签或停靠栏中打开 flomo 网页。"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "flomo Web",
+          "zh-CN": "flomo 浮墨笔记网页版"
+        },
+        "frontends": [
+          "desktop",
+          "desktop-window"
+        ],
+        "funding": {
+          "custom": [
+            "https://mytemos.com/"
+          ]
+        },
+        "minAppVersion": "3.7.0",
+        "name": "flomo-web",
+        "readme": {
+          "default": "README.md",
+          "zh-CN": "README.zh-CN.md"
+        },
+        "url": "https://github.com/TCOTC/flomo-web",
+        "version": "1.0.0"
+      },
+      "packageZipAssetId": 520505055,
+      "packageZipSha256": "4716d0873d7e677ca41f932dc195a0f431d3f7f450f27795125c2b271ef3b3a7",
+      "size": 224216,
+      "stars": 1,
+      "updated": "2026-08-19T06:58:05Z",
+      "url": "TCOTC/flomo-web@4716d08"
+    },
+    {
+      "installSize": 100795,
+      "openIssues": 0,
+      "package": {
+        "author": "muweisan",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "Auto-scroll to cursor block when switching documents",
+          "zh-CN": "切换文档时自动跳转到光标所在块，并高亮显示"
+        },
+        "displayName": {
+          "default": "Cursor Focus",
+          "zh-CN": "光标定位"
+        },
+        "frontends": [
+          "all"
+        ],
+        "keywords": [
+          "siyuan",
+          "plugin",
+          "cursor",
+          "focus",
+          "光标定位"
+        ],
+        "minAppVersion": "3.8.0",
+        "name": "siyuan-plugin-cursor-focus",
+        "readme": {
+          "default": "README.md",
+          "zh-CN": "README.zh-CN.md"
+        },
+        "url": "https://github.com/muweisan/siyuan-plugin-cursor-focus",
+        "version": "1.0.2"
+      },
+      "packageZipAssetId": 520502322,
+      "packageZipSha256": "8d868b0d175a63d99accccf7753e87af023e587791627c3b4d797992525b6e6c",
+      "size": 52334,
+      "stars": 1,
+      "updated": "2026-08-19T06:50:51Z",
+      "url": "muweisan/siyuan-plugin-cursor-focus@8d868b0"
+    },
+    {
+      "installSize": 216586,
+      "openIssues": 25,
+      "package": {
+        "author": "Jeffrey Chen",
+        "backends": [
+          "windows",
+          "linux",
+          "darwin"
+        ],
+        "description": {
+          "default": "Install marketplace packages via GitHub links — faster than the official marketplace!",
+          "zh-CN": "使用 GitHub 链接安装集市包，比官方集市更快一步！"
+        },
+        "disabledInPublish": true,
+        "displayName": {
+          "default": "Install Marketplace Package",
+          "zh-CN": "安装集市包"
+        },
+        "frontends": [
+          "desktop",
+          "desktop-window"
+        ],
+        "funding": {
+          "custom": [
+            "https://mytemos.com/"
+          ]
+        },
+        "keywords": [
+          "开发者工具",
+          "developer tool"
+        ],
+        "minAppVersion": "3.8.1",
+        "name": "install-package",
+        "readme": {
+          "default": "README.md",
+          "zh-CN": "README.zh-CN.md"
+        },
+        "url": "https://github.com/TCOTC/install-package",
+        "version": "0.4.3"
+      },
+      "packageZipAssetId": 520399381,
+      "packageZipSha256": "0626cd02f17a068c38d29e0e508cd9ac5a05767552e844c12029d2f0dc17c962",
+      "size": 74275,
+      "stars": 2,
+      "updated": "2026-08-19T04:45:03Z",
+      "url": "TCOTC/install-package@0626cd0"
+    },
+    {
+      "installSize": 353944,
+      "openIssues": 0,
+      "package": {
+        "author": "Peter Promok",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "Plugin to draw SMILES inside SiYuan",
+          "zh-CN": "在思源笔记中绘制 SMILES 分子结构式的插件"
+        },
+        "displayName": {
+          "default": "SiYuan-Smiles"
+        },
+        "frontends": [
+          "all"
+        ],
+        "kernels": [
+          "all"
+        ],
+        "keywords": [
+          "chemical",
+          "smiles",
+          "molecule",
+          "reactions",
+          "education",
+          "school",
+          "university",
+          "化学",
+          "分子",
+          "化学反应",
+          "教育",
+          "学校",
+          "大学"
+        ],
+        "minAppVersion": "3.8.0",
+        "name": "SiYuan-Smiles",
+        "readme": {
+          "default": "README.md",
+          "zh-CN": "README.zh-CN.md"
+        },
+        "url": "https://github.com/CChartreux/SiYuan-Smiles",
+        "version": "1.1.2"
+      },
+      "packageZipAssetId": 519900634,
+      "packageZipSha256": "7e6dbfa1da1bf95c2debc1e91499b563f1fea373184321b8c7b0e6556ba50623",
+      "size": 175488,
+      "stars": 0,
+      "updated": "2026-08-19T03:57:08Z",
+      "url": "CChartreux/SiYuan-Smiles@7e6dbfa"
+    },
+    {
+      "installSize": 90399,
+      "openIssues": 0,
+      "package": {
+        "author": "MianJu",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "Publish current SiYuan note to Rin blog: auto-upload local images, custom publish options (public/draft/tags/summary/alias), one-click publish and update.",
+          "zh-CN": "将思源笔记一键发布到 Rin 博客：自动上传并替换本地图片，支持自定义发布（公开/草稿/标签/简介/别名），一键发布与更新。"
+        },
+        "displayName": {
+          "default": "Rin Publisher",
+          "zh-CN": "Rin 发布"
+        },
+        "frontends": [
+          "all"
+        ],
+        "kernels": [
+          "all"
+        ],
+        "keywords": [
+          "rin",
+          "publisher",
+          "博客发布",
+          "blog publishing"
+        ],
+        "minAppVersion": "3.1.0",
+        "name": "siyuan-rin-publisher",
+        "readme": {
+          "default": "README.md"
+        },
+        "url": "https://github.com/MianJu28/siyuan-rin-publisher",
+        "version": "0.4.3"
+      },
+      "packageZipAssetId": 520292524,
+      "packageZipSha256": "0ee00638e804e8652a0e6bc7cb17e029487f8aeeb1c9e12e47baebf31d03bb46",
+      "size": 52653,
+      "stars": 0,
+      "updated": "2026-08-19T02:46:38Z",
+      "url": "MianJu28/siyuan-rin-publisher@0ee0063"
+    },
+    {
+      "installSize": 187549,
+      "openIssues": 1,
+      "package": {
+        "author": "Genwaygenway",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A polished local task manager with P0-P3 priorities, categories, subtasks, due dates and trash.",
+          "zh-CN": "一款精致的本地待办管理器，支持 P0-P3 优先级、分类、子任务、截止日期和回收站。"
+        },
+        "displayName": {
+          "default": "Todo Plus",
+          "zh-CN": "待办清单"
+        },
+        "frontends": [
+          "desktop",
+          "browser-desktop",
+          "desktop-window"
+        ],
+        "kernels": [
+          "all"
+        ],
+        "keywords": [
+          "待办",
+          "任务管理",
+          "子任务",
+          "优先级",
+          "todo",
+          "task",
+          "productivity"
+        ],
+        "minAppVersion": "3.7.0",
+        "name": "siyuan-todo-plus",
+        "readme": {
+          "default": "README.md",
+          "zh-CN": "README.zh-CN.md"
+        },
+        "url": "https://github.com/Genwaygenway/siyuan-todo-plus",
+        "version": "1.0.4"
+      },
+      "packageZipAssetId": 520249126,
+      "packageZipSha256": "5c3a56495f53bd6e9e0a1be30b12802d5e4a8f40168ece00a36ad844e2dc4a5d",
+      "size": 134220,
+      "stars": 0,
+      "updated": "2026-08-19T02:01:05Z",
+      "url": "Genwaygenway/siyuan-todo-plus@5c3a564"
+    },
+    {
+      "installSize": 252545,
+      "openIssues": 0,
+      "package": {
+        "author": "Genwaygenway",
+        "backends": [
+          "all"
+        ],
+        "description": {
+          "default": "A polished local calendar with lunar dates, solar terms, major Chinese festivals, public holidays and daily notes.",
+          "zh-CN": "一款精致的本地日历，支持农历、节气、中国传统节日、法定节假日和每日记录。"
+        },
+        "displayName": {
+          "default": "Calendar Plus",
+          "zh-CN": "日历"
+        },
+        "frontends": [
+          "desktop",
+          "browser-desktop",
+          "desktop-window"
+        ],
+        "kernels": [
+          "all"
+        ],
+        "keywords": [
+          "日历",
+          "农历",
+          "节气",
+          "节假日",
+          "calendar",
+          "lunar",
+          "productivity"
+        ],
+        "minAppVersion": "3.7.0",
+        "name": "siyuan-calendar-plus",
+        "readme": {
+          "default": "README.md",
+          "zh-CN": "README.zh-CN.md"
+        },
+        "url": "https://github.com/Genwaygenway/siyuan-calendar-plus",
+        "version": "1.0.3"
+      },
+      "packageZipAssetId": 520249112,
+      "packageZipSha256": "b3aa2c979addd34817e7260cd92963a9df7435fe6cbb9c9739827974a03e1728",
+      "size": 202010,
+      "stars": 0,
+      "updated": "2026-08-19T02:01:03Z",
+      "url": "Genwaygenway/siyuan-calendar-plus@b3aa2c9"
+    },
+    {
       "installSize": 212355,
       "openIssues": 11,
       "package": {
@@ -81,48 +638,6 @@
       "stars": 12,
       "updated": "2026-08-18T11:56:34Z",
       "url": "QYLexpired/Neo-Plus@61e5f22"
-    },
-    {
-      "installSize": 101220,
-      "openIssues": 0,
-      "package": {
-        "author": "muweisan",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "Auto-scroll to cursor block when switching documents",
-          "zh-CN": "切换文档时自动跳转到光标所在块，并高亮显示"
-        },
-        "displayName": {
-          "default": "Cursor Focus",
-          "zh-CN": "光标定位"
-        },
-        "frontends": [
-          "all"
-        ],
-        "keywords": [
-          "siyuan",
-          "plugin",
-          "cursor",
-          "focus",
-          "光标定位"
-        ],
-        "minAppVersion": "3.8.0",
-        "name": "siyuan-plugin-cursor-focus",
-        "readme": {
-          "default": "README.md",
-          "zh-CN": "README.zh-CN.md"
-        },
-        "url": "https://github.com/muweisan/siyuan-plugin-cursor-focus",
-        "version": "1.0.1"
-      },
-      "packageZipAssetId": 519071014,
-      "packageZipSha256": "6f474d1c889b17774987c3f06acdd4b055869405d74475c927c315ba1762216c",
-      "size": 52461,
-      "stars": 1,
-      "updated": "2026-08-18T08:07:32Z",
-      "url": "muweisan/siyuan-plugin-cursor-focus@6f474d1"
     },
     {
       "installSize": 986683,
@@ -217,51 +732,6 @@
       "stars": 16,
       "updated": "2026-08-18T03:25:00Z",
       "url": "royc01/pinch@6512ed2"
-    },
-    {
-      "installSize": 1959874,
-      "openIssues": 0,
-      "package": {
-        "author": "LunaNorth",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A lightweight note-taking plugin for SiYuan, inspired by Flomo",
-          "zh_CN": "记录每一个轻闪而过的念头"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "Lumina",
-          "zh_CN": "轻语"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [
-            "https://testingcf.jsdelivr.net/gh/LunaNorth/north-img/images/20260519195219305.png"
-          ]
-        },
-        "keywords": [
-          "碎碎念",
-          "记录",
-          "回顾"
-        ],
-        "minAppVersion": "3.3.3",
-        "name": "siyuan-lumina",
-        "readme": {
-          "default": "README.md"
-        },
-        "url": "https://github.com/LunaNorth/siyuan-lumina",
-        "version": "2.1.8"
-      },
-      "packageZipAssetId": 518803814,
-      "packageZipSha256": "56b34ed393228a3c35e3fb2da9087eeed5c6921ae4ba5eba02dcf8bd43da0842",
-      "size": 507705,
-      "stars": 16,
-      "updated": "2026-08-18T02:20:20Z",
-      "url": "LunaNorth/siyuan-lumina@56b34ed"
     },
     {
       "installSize": 204670,
@@ -654,49 +1124,6 @@
       "stars": 0,
       "updated": "2026-08-17T08:00:47Z",
       "url": "Misuzu2027/syplugin-misuzu-custom@ddea648"
-    },
-    {
-      "installSize": 81701,
-      "openIssues": 0,
-      "package": {
-        "author": "MianJu",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "Publish current SiYuan note to Rin blog: auto-upload local images, custom publish options (public/draft/tags/summary/alias), one-click publish and update.",
-          "zh-CN": "将思源笔记一键发布到 Rin 博客：自动上传并替换本地图片，支持自定义发布（公开/草稿/标签/简介/别名），一键发布与更新。"
-        },
-        "displayName": {
-          "default": "Rin Publisher",
-          "zh-CN": "Rin 发布"
-        },
-        "frontends": [
-          "all"
-        ],
-        "kernels": [
-          "all"
-        ],
-        "keywords": [
-          "rin",
-          "publisher",
-          "博客发布",
-          "blog publishing"
-        ],
-        "minAppVersion": "3.1.0",
-        "name": "siyuan-rin-publisher",
-        "readme": {
-          "default": "README.md"
-        },
-        "url": "https://github.com/MianJu28/siyuan-rin-publisher",
-        "version": "0.3.6"
-      },
-      "packageZipAssetId": 517621189,
-      "packageZipSha256": "a9a5049dbdd5fd4f4fbae95092afaba434598e9df959cc699c76807e9c9c7784",
-      "size": 50033,
-      "stars": 0,
-      "updated": "2026-08-17T04:36:20Z",
-      "url": "MianJu28/siyuan-rin-publisher@a9a5049"
     },
     {
       "installSize": 286677,
@@ -1900,46 +2327,6 @@
       "url": "TCOTC/select-opened-doc@ecc1eaf"
     },
     {
-      "installSize": 1566557,
-      "openIssues": 1,
-      "package": {
-        "author": "Szerelem0617",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "【🔓Permanently open source and free】 One-click index insertion, supports batch data management in attribute view.",
-          "zh_CN": "【🔓永久开源免费】 一键插入目录；创建数据库；批量管理数据。"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "Index Plugin",
-          "zh_CN": "目录插件"
-        },
-        "frontends": [
-          "all"
-        ],
-        "keywords": [
-          "index",
-          "目录"
-        ],
-        "minAppVersion": "3.7.3",
-        "name": "siyuan-plugins-index",
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md"
-        },
-        "url": "https://github.com/Szerelem0617/siyuan-plugins-index",
-        "version": "1.10.6"
-      },
-      "packageZipAssetId": 514200377,
-      "packageZipSha256": "04a8bacbc77eadb610298f933c33319ecc776c1381ab6768e4bdcaf851362e35",
-      "size": 656784,
-      "stars": 42,
-      "updated": "2026-08-14T09:11:01Z",
-      "url": "Szerelem0617/siyuan-plugins-index@04a8bac"
-    },
-    {
       "installSize": 9966737,
       "openIssues": 2,
       "package": {
@@ -2885,49 +3272,6 @@
       "stars": 1,
       "updated": "2026-08-11T12:47:20Z",
       "url": "Glaube-TY/siyuan-gesture-flow@091f73f"
-    },
-    {
-      "installSize": 1048599,
-      "openIssues": 1,
-      "package": {
-        "author": "li.mian",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A personal ledger plugin for SiYuan.",
-          "zh_CN": "一个基于思源笔记的账本插件"
-        },
-        "displayName": {
-          "default": "pledger",
-          "zh_CN": "账本"
-        },
-        "frontends": [
-          "all"
-        ],
-        "funding": {
-          "custom": [
-            "https://afdian.com/a/limian"
-          ]
-        },
-        "keywords": [
-          "ledger",
-          "账本"
-        ],
-        "minAppVersion": "3.2.1",
-        "name": "siyuan-pledger",
-        "readme": {
-          "default": "README.md"
-        },
-        "url": "https://github.com/double3-org/siyuan-pledger",
-        "version": "0.2.2"
-      },
-      "packageZipAssetId": 509894226,
-      "packageZipSha256": "54ea1862d0cb88b78d28c0c0cbfc6917f1cd6be27d673746497d473eb16a1914",
-      "size": 475391,
-      "stars": 6,
-      "updated": "2026-08-11T08:46:27Z",
-      "url": "double3-org/siyuan-pledger@54ea186"
     },
     {
       "installSize": 66476,
@@ -4976,53 +5320,6 @@
       "url": "Acetab/siyuan-table-merge@baff5f5"
     },
     {
-      "installSize": 263827,
-      "openIssues": 0,
-      "package": {
-        "author": "Acetab",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "Automatically fetch and cache favicons for SiYuan web links, with multiple sources, local monogram fallbacks, and smart compatibility with Link Icon.",
-          "zh-CN": "自动为思源网页链接获取并缓存网站图标，支持多来源、本地字母兜底，并可与「链接图标」插件智能配合。"
-        },
-        "displayName": {
-          "default": "Auto Favicon",
-          "zh-CN": "自动网站图标"
-        },
-        "frontends": [
-          "desktop",
-          "mobile"
-        ],
-        "keywords": [
-          "网站图标",
-          "自动图标",
-          "网页链接",
-          "外链",
-          "favicon",
-          "链接",
-          "link icon",
-          "website icon",
-          "Vibe Coding"
-        ],
-        "minAppVersion": "3.7.0",
-        "name": "auto-favicon",
-        "readme": {
-          "default": "README.md",
-          "zh-CN": "README.zh-CN.md"
-        },
-        "url": "https://github.com/Acetab/auto-favicon",
-        "version": "0.5.7"
-      },
-      "packageZipAssetId": 496543323,
-      "packageZipSha256": "4671e5ce60338e7579d8d8625a203dc1621500f1bbf50ea72ef5e31a28cbed51",
-      "size": 187354,
-      "stars": 0,
-      "updated": "2026-07-31T10:06:45Z",
-      "url": "Acetab/auto-favicon@4671e5c"
-    },
-    {
       "installSize": 374874,
       "openIssues": 0,
       "package": {
@@ -5539,54 +5836,6 @@
       "url": "mm-o/siyuan-sireader@3555256"
     },
     {
-      "installSize": 217375,
-      "openIssues": 25,
-      "package": {
-        "author": "Jeffrey Chen",
-        "backends": [
-          "windows",
-          "linux",
-          "darwin"
-        ],
-        "description": {
-          "default": "Install marketplace packages via GitHub links — faster than the official marketplace!",
-          "zh-CN": "使用 GitHub 链接安装集市包，比官方集市更快一步！"
-        },
-        "disabledInPublish": true,
-        "displayName": {
-          "default": "Install Marketplace Package",
-          "zh-CN": "安装集市包"
-        },
-        "frontends": [
-          "desktop",
-          "desktop-window"
-        ],
-        "funding": {
-          "custom": [
-            "https://mytemos.com/"
-          ]
-        },
-        "keywords": [
-          "开发者工具",
-          "developer tool"
-        ],
-        "minAppVersion": "3.7.0-beta.1",
-        "name": "install-package",
-        "readme": {
-          "default": "README.md",
-          "zh-CN": "README.zh-CN.md"
-        },
-        "url": "https://github.com/TCOTC/install-package",
-        "version": "0.4.2"
-      },
-      "packageZipAssetId": 494025683,
-      "packageZipSha256": "c71aae8a3ec70fc6c5f96fb0390b05fc39f4b36a5a1ecf74c67849154de5fc05",
-      "size": 74400,
-      "stars": 2,
-      "updated": "2026-07-29T12:36:26Z",
-      "url": "TCOTC/install-package@c71aae8"
-    },
-    {
       "installSize": 293845,
       "openIssues": 0,
       "package": {
@@ -5631,60 +5880,6 @@
       "stars": 0,
       "updated": "2026-07-29T04:35:09Z",
       "url": "shuojie819/siyuan-table-to-database@e3a9685"
-    },
-    {
-      "installSize": 102219,
-      "openIssues": 0,
-      "package": {
-        "author": "Cyprien63",
-        "backends": [
-          "windows",
-          "linux",
-          "darwin",
-          "ios",
-          "android",
-          "docker"
-        ],
-        "description": {
-          "default": "Sync SiYuan notes with a GitHub repository. Incremental push/pull, 3-way merge, commit history, restore, Groq AI commit messages.",
-          "zh_CN": "将思源笔记与 GitHub 仓库同步。增量推送/拉取、三方合并、提交历史、恢复、Groq AI 提交消息。"
-        },
-        "displayName": {
-          "default": "GitHub Sync",
-          "zh_CN": "GitHub 同步"
-        },
-        "frontends": [
-          "desktop",
-          "mobile",
-          "browser-desktop",
-          "browser-mobile"
-        ],
-        "funding": {
-          "custom": [
-            "https://paypal.me/CyprienPisicchio"
-          ]
-        },
-        "keywords": [
-          "sync",
-          "github",
-          "backup",
-          "git",
-          "version-control"
-        ],
-        "minAppVersion": "3.6.4",
-        "name": "siyuan-github-sync",
-        "readme": {
-          "default": "README.md"
-        },
-        "url": "https://github.com/cyprien63/siyuan-plugin",
-        "version": "3.1.0"
-      },
-      "packageZipAssetId": 493053383,
-      "packageZipSha256": "66261d511b89d581d3222460796f697104e46348f2c5c81dcac5a7fef8c801a8",
-      "size": 56965,
-      "stars": 2,
-      "updated": "2026-07-28T18:39:01Z",
-      "url": "cyprien63/siyuan-plugin@66261d5"
     },
     {
       "installSize": 240677,
@@ -5817,104 +6012,6 @@
       "stars": 3,
       "updated": "2026-07-28T11:57:39Z",
       "url": "Zuoqiu-Yingyi/siyuan-plugin-typewriter@2bccb3b"
-    },
-    {
-      "installSize": 252153,
-      "openIssues": 0,
-      "package": {
-        "author": "Genwaygenway",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A polished local calendar with lunar dates, solar terms, major Chinese festivals, public holidays and daily notes.",
-          "zh-CN": "一款精致的本地日历，支持农历、节气、中国传统节日、法定节假日和每日记录。"
-        },
-        "displayName": {
-          "default": "Calendar Plus",
-          "zh-CN": "日历"
-        },
-        "frontends": [
-          "desktop",
-          "browser-desktop",
-          "desktop-window"
-        ],
-        "kernels": [
-          "all"
-        ],
-        "keywords": [
-          "日历",
-          "农历",
-          "节气",
-          "节假日",
-          "calendar",
-          "lunar",
-          "productivity"
-        ],
-        "minAppVersion": "3.7.0",
-        "name": "siyuan-calendar-plus",
-        "readme": {
-          "default": "README.md",
-          "zh-CN": "README.zh-CN.md"
-        },
-        "url": "https://github.com/Genwaygenway/siyuan-calendar-plus",
-        "version": "1.0.2"
-      },
-      "packageZipAssetId": 492496517,
-      "packageZipSha256": "6e3c784a5dbcc3f22c906dbe492d87e3f69df10cabf54bff43983973c9fa8c6a",
-      "size": 201885,
-      "stars": 0,
-      "updated": "2026-07-28T08:51:47Z",
-      "url": "Genwaygenway/siyuan-calendar-plus@6e3c784"
-    },
-    {
-      "installSize": 187340,
-      "openIssues": 1,
-      "package": {
-        "author": "Genwaygenway",
-        "backends": [
-          "all"
-        ],
-        "description": {
-          "default": "A polished local task manager with P0-P3 priorities, categories, subtasks, due dates and trash.",
-          "zh-CN": "一款精致的本地待办管理器，支持 P0-P3 优先级、分类、子任务、截止日期和回收站。"
-        },
-        "displayName": {
-          "default": "Todo Plus",
-          "zh-CN": "待办清单"
-        },
-        "frontends": [
-          "desktop",
-          "browser-desktop",
-          "desktop-window"
-        ],
-        "kernels": [
-          "all"
-        ],
-        "keywords": [
-          "待办",
-          "任务管理",
-          "子任务",
-          "优先级",
-          "todo",
-          "task",
-          "productivity"
-        ],
-        "minAppVersion": "3.7.0",
-        "name": "siyuan-todo-plus",
-        "readme": {
-          "default": "README.md",
-          "zh-CN": "README.zh-CN.md"
-        },
-        "url": "https://github.com/Genwaygenway/siyuan-todo-plus",
-        "version": "1.0.3"
-      },
-      "packageZipAssetId": 492496518,
-      "packageZipSha256": "9e3ff43062f5211429d4b00b86fc64a6db52a33ab7fdc6749e338bd933817cf8",
-      "size": 134147,
-      "stars": 0,
-      "updated": "2026-07-28T08:51:46Z",
-      "url": "Genwaygenway/siyuan-todo-plus@9e3ff43"
     },
     {
       "installSize": 60796,
